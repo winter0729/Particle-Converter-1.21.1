@@ -539,7 +539,7 @@ namespace ParticleConverter
         private void ParticleSizeBox_LostFocus(object sender, RoutedEventArgs e)
         {
             TextBox sb = (TextBox)sender;
-            if (decimal.TryParse(sb.Text, out decimal d) && d <= decimal.Parse("1.00") && d > 0)
+            if (decimal.TryParse(sb.Text, out decimal d) && d <= decimal.Parse("4.00") && d > 0)
             {
                 oldValues[sb.Name] = sb.Text;
                 Update_Preview();
