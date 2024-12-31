@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
     <StartupObject>ParticleConverter.App</StartupObject>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>False</SignAssembly>
     <AssemblyOriginatorKeyFile>kemo14331.pfx</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
     <Copyright>Kemo431</Copyright>
